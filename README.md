@@ -13,7 +13,7 @@ This script uses the xset command to disable the screen saver, turn off the disp
 and prevent the screen from blanking. The script runs an infinite loop, and in each iteration,
 it executes the xset commands and then waits for 10 minutes (600 seconds) before executing the commands again.
 For debian based system use
--sudo apt-get install x11-xserver-utils
+- sudo apt-get install x11-xserver-utils
 
 -For method three
 The script then defines a sleep interval of 10 minutes (600 seconds). The simulate_activity function is used to simulate keyboard and mouse activity by moving the mouse slightly and pressing and releasing a random key.
